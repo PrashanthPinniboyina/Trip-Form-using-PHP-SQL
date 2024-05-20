@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.container{
+    width:80%;
+    padding:30px;
+    margin:auto;   
+}
+
+.container h1,p{
+    text-align:center;
+}
+
+input,textarea,fieldset{
+    width:90%;
+    font-size:15px;
+    margin:15px 0 15px 10px;
+    padding:5px 0 5px 0;
+    outline:none;
+}
+
+form{
+    padding-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+button{
+    padding:10px;
+    font-size:15px;
+    border-radius:10px;
+    background-color: white;
+    border:2px solid black;
+    cursor:pointer;
+    
+}
+
+.submitMsg{
+    color:white;
+    font-size:30px;
+}
